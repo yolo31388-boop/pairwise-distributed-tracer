@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pairwise-distributed-tracer"
+version = "0.1.0"
+description = "游戏内分布式追踪与链路监控系统 - bug修复项目"
+requires-python = ">=3.8"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
